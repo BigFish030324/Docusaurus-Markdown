@@ -160,7 +160,7 @@ module.exports = {
             {
                 // options here
                 name: "my-docusaurus-remote-content", // used by CLI, must be path safe
-                sourceBaseUrl: "https://my-docusaurus-site.com/src/", // the base url for the markdown (gets prepended to all of the documents when fetching)
+                sourceBaseUrl: "https://raw.githubusercontent.com/BigFish030324/Docusaurus-Markdown/main/", // the base url for the markdown (gets prepended to all of the documents when fetching)
                 outDir: "docs", // the base directory to output to.
                 documents: ["README.md"], // the file names to download
             },
