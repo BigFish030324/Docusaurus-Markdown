@@ -153,4 +153,19 @@ const config = {
     }),
 };
 
+module.exports = {
+    plugins: [
+        [
+            "docusaurus-plugin-remote-content",
+            {
+                // options here
+                name: "my-docusaurus-remote-content", // used by CLI, must be path safe
+                sourceBaseUrl: "https://my-docusaurus-site.com/content/", // the base url for the markdown (gets prepended to all of the documents when fetching)
+                outDir: "docs", // the base directory to output to.
+                documents: ["my-file.md", "README.md"], // the file names to download
+            },
+        ],
+    ],
+}
+
 export default config;
