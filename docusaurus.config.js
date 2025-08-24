@@ -53,48 +53,48 @@ const config = {
       },
     ],
 
-    // Pan-zoom plugin configuration with options
-    [
-      "@r74tech/docusaurus-plugin-panzoom",
-      {
-        // Plugin options (all are optional)
-        selector: ".markdown img", // CSS selector for images to enable pan-zoom
-        config: {
-          // Panzoom configuration options
-          maxScale: 4, // Maximum zoom scale
-          minScale: 0.5, // Minimum zoom scale
-          increment: 0.1, // Zoom increment per scroll
-          duration: 200, // Animation duration in ms
-          easing: "ease-in-out", // CSS easing function
-          disablePan: false, // Disable panning
-          disableZoom: false, // Disable zooming
-          startScale: 1, // Initial scale
-          startX: 0, // Initial X position
-          startY: 0, // Initial Y position
-          contain: "outside", // How to contain the element ("inside", "outside")
-          cursor: "grab", // Cursor style when hovering
-          disableXAxis: false, // Disable horizontal panning
-          disableYAxis: false, // Disable vertical panning
-          relative: false, // Use relative positioning
-          excludeClass: "panzoom-exclude" // Class to exclude from pan-zoom
-        },
-        // Additional plugin-specific options
-        buttonPosition: "topRight", // Position of zoom controls ("topLeft", "topRight", "bottomLeft", "bottomRight")
-        showZoomButtons: true, // Show zoom in/out buttons
-        showResetButton: true, // Show reset button
-        buttonStyle: {
-          // Custom button styling
-          backgroundColor: "#007acc",
-          color: "white",
-          border: "none",
-          borderRadius: "4px",
-          padding: "8px 12px",
-          margin: "2px",
-          cursor: "pointer",
-          fontSize: "14px"
-        }
-      }
-    ]
+    // // Pan-zoom plugin configuration with options
+    // [
+    //   "@r74tech/docusaurus-plugin-panzoom",
+    //   {
+    //     // Plugin options (all are optional)
+    //     selector: ".markdown img", // CSS selector for images to enable pan-zoom
+    //     config: {
+    //       // Panzoom configuration options
+    //       maxScale: 4, // Maximum zoom scale
+    //       minScale: 0.5, // Minimum zoom scale
+    //       increment: 0.1, // Zoom increment per scroll
+    //       duration: 200, // Animation duration in ms
+    //       easing: "ease-in-out", // CSS easing function
+    //       disablePan: false, // Disable panning
+    //       disableZoom: false, // Disable zooming
+    //       startScale: 1, // Initial scale
+    //       startX: 0, // Initial X position
+    //       startY: 0, // Initial Y position
+    //       contain: "outside", // How to contain the element ("inside", "outside")
+    //       cursor: "grab", // Cursor style when hovering
+    //       disableXAxis: false, // Disable horizontal panning
+    //       disableYAxis: false, // Disable vertical panning
+    //       relative: false, // Use relative positioning
+    //       excludeClass: "panzoom-exclude" // Class to exclude from pan-zoom
+    //     },
+    //     // Additional plugin-specific options
+    //     buttonPosition: "topRight", // Position of zoom controls ("topLeft", "topRight", "bottomLeft", "bottomRight")
+    //     showZoomButtons: true, // Show zoom in/out buttons
+    //     showResetButton: true, // Show reset button
+    //     buttonStyle: {
+    //       // Custom button styling
+    //       backgroundColor: "#007acc",
+    //       color: "white",
+    //       border: "none",
+    //       borderRadius: "4px",
+    //       padding: "8px 12px",
+    //       margin: "2px",
+    //       cursor: "pointer",
+    //       fontSize: "14px"
+    //     }
+    //   }
+    // ]
   ],
 
   markdown: {
