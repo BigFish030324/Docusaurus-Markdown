@@ -1,20 +1,25 @@
 # General Testing
 ## Styling
 - Normal text
-- *Italian text*
+- *Italic text*
 - **Bold text**
-- _Underline_
+- ***Bold and Italic text***
 - <mark>Highlight text</mark>
 - [Google Hyperlink text](https://www.google.com/)
 - `single quote`
+>- Blockquotes
+>>- Nested blockquotes
 
 - Bullet 1
-- Bullet 2
-- Bullet 3
+   - Bullet 2
+      - Bullet 3
 
 1. Number 1
+   1. Number 1.1
 2. Number 2
 3. Number 3
+
+---
 
 ## Table
 
@@ -22,6 +27,8 @@
 |---|---|---|
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
 | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
+
+---
 
 ## Image and Video
 
@@ -34,6 +41,8 @@
 </video>
 
 <!-- <iframe src="https://docusaurus-junhong.s3.ap-southeast-1.amazonaws.com/5sec.mp4"></iframe> -->
+
+---
 
 ## Mermaid
 
