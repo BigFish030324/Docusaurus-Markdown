@@ -27,7 +27,7 @@
 
 ![Local Image](/img/green_background.jpg)
 
-![Website Image](https://docusaurus-junhong.s3.ap-southeast-1.amazonaws.com/%E7%A8%BB%E7%94%B0.jpg)
+<!-- ![Website Image](https://docusaurus-junhong.s3.ap-southeast-1.amazonaws.com/%E7%A8%BB%E7%94%B0.jpg) -->
 
 import upAndDownURL from '/img/3sec.mp4'; // Example import
 
@@ -35,6 +35,25 @@ import upAndDownURL from '/img/3sec.mp4'; // Example import
   <source src={upAndDownURL} />
 </video>
 
-<iframe src="https://docusaurus-junhong.s3.ap-southeast-1.amazonaws.com/5sec.mp4"></iframe>
+<!-- <iframe src="https://docusaurus-junhong.s3.ap-southeast-1.amazonaws.com/5sec.mp4"></iframe> -->
 
 ## Mermaid
+
+Sample
+```mermaid
+graph TD
+    A[Start] --> B{Is it a good day?};
+    B -->|Yes| C[Go for a walk];
+    B -->|No| D[Stay indoors];
+    C --> E[Enjoy the sun];
+    D --> F[Read a book];
+```
+
+Sample 2
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
