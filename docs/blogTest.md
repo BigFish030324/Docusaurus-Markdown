@@ -30,7 +30,7 @@
 <!-- ![Website Image](https://docusaurus-junhong.s3.ap-southeast-1.amazonaws.com/%E7%A8%BB%E7%94%B0.jpg) -->
 
 <video controls>
-  <source src="/img/3sec.mp4" />
+  <source src="https://docusaurus-junhong.s3.ap-southeast-1.amazonaws.com/static/img/3sec.mp4" />
 </video>
 
 <!-- <iframe src="https://docusaurus-junhong.s3.ap-southeast-1.amazonaws.com/5sec.mp4"></iframe> -->
