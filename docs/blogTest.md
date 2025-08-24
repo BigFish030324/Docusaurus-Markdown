@@ -44,6 +44,22 @@
 
 ---
 
+## Code
+
+```python
+print(hello)
+```
+
+```cpp
+std::cout << "Hello";
+```
+
+```java
+System.out.println("Hello");
+```
+
+---
+
 ## Mermaid
 
 Sample
@@ -66,6 +82,14 @@ graph TD;
 ```
 
 Sample 3
+```mermaid
+pie title Fish Distribution
+    "Salmon" : 386
+    "Bass" : 85
+    "Trout" : 150
+```
+
+```txt
 ```mermaid
 pie title Fish Distribution
     "Salmon" : 386
