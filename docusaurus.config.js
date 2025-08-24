@@ -20,7 +20,7 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://BigFish030324/',
+  url: 'https://BigFish030324.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/Docusaurus-Markdown/',
@@ -40,6 +40,19 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  plugins: [
+    [
+      "docusaurus-plugin-remote-content",
+      {
+        // options here
+        name: "my-docusaurus-remote-content", // used by CLI, must be path safe
+        sourceBaseUrl: "https://raw.githubusercontent.com/BigFish030324/Docusaurus-Markdown/main/", // the base url for the markdown (gets prepended to all of the documents when fetching)
+        outDir: "docs", // the base directory to output to.
+        documents: ["README.md"], // the file names to download
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -152,20 +165,5 @@ const config = {
       },
     }),
 };
-
-module.exports = {
-    plugins: [
-        [
-            "docusaurus-plugin-remote-content",
-            {
-                // options here
-                name: "my-docusaurus-remote-content", // used by CLI, must be path safe
-                sourceBaseUrl: "https://raw.githubusercontent.com/BigFish030324/Docusaurus-Markdown/main/", // the base url for the markdown (gets prepended to all of the documents when fetching)
-                outDir: "docs", // the base directory to output to.
-                documents: ["README.md"], // the file names to download
-            },
-        ],
-    ],
-}
 
 export default config;
