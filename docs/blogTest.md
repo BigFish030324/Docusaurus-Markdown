@@ -57,3 +57,11 @@ graph TD;
     B-->D;
     C-->D;
 ```
+
+Sample 3
+```mermaid
+pie title Fish Distribution
+    "Salmon" : 386
+    "Bass" : 85
+    "Trout" : 150
+```
